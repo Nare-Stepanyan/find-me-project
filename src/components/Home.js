@@ -9,7 +9,7 @@ const Home = (props) => {
     <Container>
       <Section>
         <h5>
-          <a href="">Hiring in a hurry? </a>
+          <a href="#">Hiring in a hurry? </a>
         </h5>
         <p>
           -Find talanted pros in record time with Upwork and keep business

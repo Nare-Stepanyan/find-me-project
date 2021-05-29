@@ -52,18 +52,18 @@ const Header = (props) => {
               </a>
             </NavList>
             <User>
-              <a href="">
+              <a href="#">
                 <img src="/images/user.svg" alt="avatar" />
                 <span>Me</span>
                 <img src="/images/down-icon.svg" alt="down" />
               </a>
               <SignOut>
-                <a href="">Sign Out</a>
+                <a href="#">Sign Out</a>
               </SignOut>
             </User>
             <Work>
-              <a href="">
-                <img src="/images/nav-work.svg" />
+              <a href="#">
+                <img src="/images/nav-work.svg" alt="work" />
                 <span>Work</span>
                 <img src="/images/down-icon.svg" alt="down" />
               </a>
