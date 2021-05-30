@@ -5,7 +5,6 @@ const Main = (props) => {
   return (
     <Container>
       <ShareBox>
-        Share
         <div>
           <img src="/images/user.svg" alt="user" />
           <button>Start a post</button>
