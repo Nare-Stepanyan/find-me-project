@@ -33,7 +33,7 @@ const Main = (props) => {
         <Article>
           <SharedActor>
             <a href="#">
-              <img src="/images/user.svg" alt="" />
+              <img src="/images/user.svg" alt="user" />
               <div>
                 <span>Title</span>
                 <span>Info</span>
@@ -41,7 +41,7 @@ const Main = (props) => {
               </div>
             </a>
             <button>
-              <img src="/images/photo.svg" alt="" />
+              <img src="/images/dot-icon.svg" alt="more" />
             </button>
           </SharedActor>
           <Description>Description</Description>
@@ -53,8 +53,14 @@ const Main = (props) => {
           <SocialCounts>
             <li>
               <button>
-                <img src="/images/photo.svg" alt="like" />
-                <img src="/images/photo.svg" alt="like" />
+                <img
+                  src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                  alt="like"
+                />
+                <img
+                  src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"
+                  alt="like"
+                />
                 <span>75</span>
               </button>
             </li>
@@ -64,19 +70,19 @@ const Main = (props) => {
           </SocialCounts>
           <SocialActions>
             <button>
-              <img src="/images/photo.svg" alt="like" />
+              <img src="/images/like-btn.svg" alt="like" />
               <span>Like</span>
             </button>
             <button>
-              <img src="/images/photo.svg" alt="comments" />
+              <img src="/images/comment-icon.svg" alt="comments" />
               <span>Comments</span>
             </button>
             <button>
-              <img src="/images/photo.svg" alt="share" />
+              <img src="/images/share-icon.svg" alt="share" />
               <span>Share</span>
             </button>
             <button>
-              <img src="/images/photo.svg" alt="send" />
+              <img src="/images/send-icon.svg" alt="send" />
               <span>Send</span>
             </button>
           </SocialActions>
@@ -271,7 +277,7 @@ const SocialActions = styled.div`
     display: inline-flex;
     align-items: center;
     padding: 8px;
-    color: #0a66c2;
+    color: #00000099;
 
     @media (min-width: 768px) {
       span {
