@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import PostModal from "./PostModal";
 
 const Main = (props) => {
   return (
@@ -11,20 +12,20 @@ const Main = (props) => {
         </div>
         <div>
           <button>
-            <img src="/images/photo.svg" alt="user" />
+            <img src="/images/photo-icon.svg" alt="user" />
             <span>Photo</span>
           </button>
           <button>
-            <img src="/images/photo.svg" alt="user" />
+            <img src="/images/video-icon.svg" alt="user" />
             <span>Video</span>
           </button>
           <button>
-            <img src="/images/photo.svg" alt="user" />
+            <img src="/images/event-icon.svg" alt="user" />
             <span>Event</span>
           </button>
           <button>
-            <img src="/images/photo.svg" alt="user" />
-            <span>Write artcle</span>
+            <img src="/images/article-icon.svg" alt="user" />
+            <span>Write article</span>
           </button>
         </div>
       </ShareBox>
@@ -81,6 +82,7 @@ const Main = (props) => {
           </SocialActions>
         </Article>
       </div>
+      {/* <PostModal /> */}
     </Container>
   );
 };
@@ -148,7 +150,8 @@ const ShareBox = styled(CommonCard)`
           margin: 0 4px 0 -2px;
         }
         span {
-          color: #70b5f9;
+          color: rgba(0,0,0,0.6);
+            }
         }
       }
     }
