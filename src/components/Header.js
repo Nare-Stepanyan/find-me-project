@@ -30,18 +30,18 @@ const Header = (props) => {
             </NavList>
             <NavList>
               <a
-                href="https://fervent-goldberg-2b60ae.netlify.app/"
+                href="https://admiring-blackwell-5213cc.netlify.app/"
                 target="_blank">
                 <img src="/images/nav-network.svg" alt="home" />
-                <span>Jobs</span>
+                <span>My Clients</span>
               </a>
             </NavList>
             <NavList>
               <a
-                href="https://admiring-blackwell-5213cc.netlify.app/"
+                href="https://fervent-goldberg-2b60ae.netlify.app/"
                 target="_blank">
                 <img src="/images/nav-jobs.svg" alt="home" />
-                <span>My Clients</span>
+                <span>Jobs</span>
               </a>
             </NavList>
             <NavList>
