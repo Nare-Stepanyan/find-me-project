@@ -36,7 +36,7 @@ const RightSide = (props) => {
       </FollowCard>
       <BannerCard>
         <img
-          src="https://lh3.googleusercontent.com/proxy/EsCAaxgtpRmX8VCe9TZNC-QL1Ndk4clzhKC6OOgNZ6FmMEcGYEl-DJuXySdV1kOkVOQ_szDS04C3_u719VVCeKxp97ZRxcoPKRX8hkwZrhCHJeCs1bI"
+          src="https://janejacksoncoach.com/wp-content/uploads/2017/11/JJC-JOB-SEARCH-ONLINE-PIC.jpg"
           alt="image"
         />
       </BannerCard>
@@ -85,14 +85,14 @@ const FeedList = styled.ul`
       background-color: transparent;
       color: rgba(0, 0, 0, 0.6);
       box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6);
-      padding: 16px;
+      padding: 10px;
       align-items: center;
       border-radius: 15px;
       box-sizing: border-box;
       font-weight: 600;
       display: inline-flex;
       justify-content: center;
-      max-height: 32px;
+      max-height: 20px;
       max-width: 480px;
       text-align: center;
       outline: none;
@@ -105,8 +105,8 @@ const Avatar = styled.div`
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
+  width: 20px;
+  height: 20px;
   margin-right: 8px;
 `;
 
