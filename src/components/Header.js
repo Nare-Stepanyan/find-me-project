@@ -46,7 +46,7 @@ const Header = (props) => {
             </NavList>
             <NavList>
               <a
-                href="https://gayanenik238.github.io/react-test-task/"
+                href="https://gayanenik238.github.io/trainings-react/"
                 target="_blank">
                 <img src="/images/nav-notifications.svg" alt="home" />
                 <span>Trainings</span>
