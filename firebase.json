@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/find-me-project",
+    "public": "dist/index.html",
     "ignore": [
       "firebase.json",
       "**/.*",
