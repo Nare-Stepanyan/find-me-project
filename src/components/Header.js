@@ -45,7 +45,9 @@ const Header = (props) => {
               </a>
             </NavList>
             <NavList>
-              <a href="/home">
+              <a
+                href="https://gayanenik238.github.io/react-test-task/"
+                target="_blank">
                 <img src="/images/nav-notifications.svg" alt="home" />
                 <span>Trainings</span>
               </a>
